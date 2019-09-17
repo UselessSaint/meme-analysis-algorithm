@@ -1,6 +1,8 @@
-#include <stdio.h>
+#include <algs.h>
+
 
 int main()
 {
+
     return 0;
 }
