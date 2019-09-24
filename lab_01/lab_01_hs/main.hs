@@ -36,10 +36,15 @@ main = do
             evaluate $ dam_lev_mtr_abs s1 s2
             evaluate $ dam_lev_mtr_abs s1 s2
             evaluate $ dam_lev_mtr_abs s1 s2
+            evaluate $ dam_lev_mtr_abs s1 s2
+            evaluate $ dam_lev_mtr_abs s1 s2
+            evaluate $ dam_lev_mtr_abs s1 s2
+            evaluate $ dam_lev_mtr_abs s1 s2
+            evaluate $ dam_lev_mtr_abs s1 s2
             
             end <- getCurrentTime
             
-            putStr "Time for 6 times: "
+            putStr "Time for 12 times: "
             print $ diffUTCTime end start
             putStr "\n"
             
@@ -52,16 +57,23 @@ main = do
             evaluate $ lev_mtr_abs s1 s2
             evaluate $ lev_mtr_abs s1 s2
             evaluate $ lev_mtr_abs s1 s2
+            evaluate $ lev_mtr_abs s1 s2
+            evaluate $ lev_mtr_abs s1 s2
+            evaluate $ lev_mtr_abs s1 s2
+            evaluate $ lev_mtr_abs s1 s2
+            evaluate $ lev_mtr_abs s1 s2
+            evaluate $ lev_mtr_abs s1 s2
             
             end <- getCurrentTime
             
-            putStr "Time for 6 times: "
+            putStr "Time for 12 times: "
             print $ diffUTCTime end start
             putStr "\n"
          
             putStr $ "Damerau Levenshtein distance rec: "
             start <- getCurrentTime
-            print $ dam_lev_rec s1 s2
+            -- print $ dam_lev_rec s1 s2
+            evaluate $ dam_lev_rec s1 s2
             end <- getCurrentTime
             
             print $ diffUTCTime end start
