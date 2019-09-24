@@ -1,4 +1,4 @@
-module Tests where
+module Main where
 
 import Data.List
 import Data.Matrix
@@ -6,35 +6,100 @@ import System.IO
 
 import Lev_matrix
 import Dam_lev_matrix
-import Control.Exception
-import Data.Time.Clock
+import Dam_lev_rec
 
-dam_lev_matrix_time_test :: IO()
-dam_lev_matrix_time_test = do
-    let s1 = "l6hkkvh4riajoyw0y88m0g5s43az4h787d5n5the"
-    let s2 = "76apk7yraubwxe3gb5poe5wpn7kev1ub2hcydo7x"
+first_arg_empty :: IO()
+first_arg_empty = do
+    let s1 = ""
+    let s2 = "ABC"
     
-    start <- getCurrentTime
-    evaluate $ dam_lev_mtr_abs s1 s2
-    end <- getCurrentTime
-    
-    print $ "Damerau-Levenshtein work time with 40 letter string: "
-    print $ diffUTCTime end start
+    if (getElem 1 4 (lev_mtr_abs s1 s2)) == 3
+        then putStr "first_arg_empty Lev_mtr : true\n"
+        else putStr "first_arg_empty Lev_mtr : false\n"
+        
+    if (getElem 1 4 (dam_lev_mtr_abs s1 s2)) == 3
+        then putStr "first_arg_empty Dam_lev_mtr: true\n"
+        else putStr "first_arg_empty Dam_lev_mtr: false\n"
+        
+    if (dam_lev_rec s1 s2) == 3
+        then putStr "first_arg_empty Dam_lev_rec: true\n"
+        else putStr "first_arg_empty Dam_lev_rec: false\n"
 
-lev_matrix_time_test :: IO()
-lev_matrix_time_test = do
-    let s1 = "l6hkkvh4riajoyw0y88m0g5s43az4h787d5n5the"
-    let s2 = "76apk7yraubwxe3gb5poe5wpn7kev1ub2hcydo7x"
+second_arg_empty :: IO()
+second_arg_empty = do
+    let s1 = "ABC"
+    let s2 = ""
     
-    start <- getCurrentTime
-    evaluate $ lev_mtr_abs s1 s2
-    end <- getCurrentTime
-    
-    print $ "Levenshtein work time with 40 letter string: "
-    print $ diffUTCTime end start
+    if (getElem 4 1 (lev_mtr_abs s1 s2)) == 3
+        then putStr "second_arg_empty Lev_mtr : true\n"
+        else putStr "second_arg_empty Lev_mtr : false\n"
+        
+    if (getElem 4 1 (dam_lev_mtr_abs s1 s2)) == 3
+        then putStr "second_arg_empty Dam_lev_mtr: true\n"
+        else putStr "second_arg_empty Dam_lev_mtr: false\n"
+        
+    if (dam_lev_rec s1 s2) == 3
+        then putStr "second_arg_empty Dam_lev_rec: true\n"
+        else putStr "second_arg_empty Dam_lev_rec: false\n"
 
-tests_main :: IO()
-tests_main = do
-    lev_matrix_time_test
-    dam_lev_matrix_time_test
+normal_test :: IO()
+normal_test = do
+    let s1 = "ABC"
+    let s2 = "DTF"
+ 
+    if (getElem 4 4 (lev_mtr_abs s1 s2)) == 3
+        then putStr "normal_test Lev_mtr : true\n"
+        else putStr "normal_test Lev_mtr : false\n"
+        
+    if (getElem 4 4 (dam_lev_mtr_abs s1 s2)) == 3
+        then putStr "normal_test Dam_lev_mtr: true\n"
+        else putStr "normal_test Dam_lev_mtr: false\n"
+        
+    if (dam_lev_rec s1 s2) == 3
+        then putStr "normal_test Dam_lev_rec: true\n"
+        else putStr "normal_test Dam_lev_rec: false\n"
+        
+both_args_empty :: IO()
+both_args_empty = do
+    let s1 = ""
+    let s2 = ""
+    
+    if (getElem 1 1 (lev_mtr_abs s1 s2)) == 0
+        then putStr "both_args_empty Lev_mtr : true\n"
+        else putStr "both_args_empty Lev_mtr : false\n"
+        
+    if (getElem 1 1 (dam_lev_mtr_abs s1 s2)) == 0
+        then putStr "both_args_empty Dam_lev_mtr: true\n"
+        else putStr "both_args_empty Dam_lev_mtr: false\n"
+        
+    if (dam_lev_rec s1 s2) == 0
+        then putStr "both_args_empty Dam_lev_rec: true\n"
+        else putStr "both_args_empty Dam_lev_rec: false\n"
+
+main :: IO()
+main = do
+    first_arg_empty
+    putStr "\n"
+    second_arg_empty
+    putStr "\n"
+    normal_test
+    putStr "\n"
+    both_args_empty
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
