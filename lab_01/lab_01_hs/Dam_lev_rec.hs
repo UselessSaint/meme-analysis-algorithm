@@ -24,6 +24,7 @@ dam_lev_rec s1 s2 = do
                 else minimum [(dam_lev_rec (init s1) s2) + 1, 
                               (dam_lev_rec s1 (init s2)) + 1,
                               (dam_lev_rec (init s1) (init s2)) + (cmp (last s1) (last s2))]
+                              
         else minimum [(dam_lev_rec "" s2) + 1, 
                       (dam_lev_rec s1 "") + 1,
                       (dam_lev_rec (init s1) (init s2)) + (cmp (last s1) (last s2))]
