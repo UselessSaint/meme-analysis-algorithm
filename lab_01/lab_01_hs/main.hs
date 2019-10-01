@@ -73,7 +73,7 @@ main = do
             putStr $ "Damerau Levenshtein distance rec: "
             start <- getCurrentTime
             -- print $ dam_lev_rec s1 s2
-            evaluate $ dam_lev_rec s1 s2
+            -- evaluate $ dam_lev_rec s1 s2
             end <- getCurrentTime
             
             print $ diffUTCTime end start
