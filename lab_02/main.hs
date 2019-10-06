@@ -3,30 +3,70 @@ module Main where
 import Data.Matrix
 import Data.Vector
 
-transp :: Matrix Int -> Matrix Int
-transp mtr = fromLists [[getElem i j  mtr | i <- [1..m]] | j <- [1..n]]
-                where n = Data.Vector.length $ getRow 1 mtr
-                      m = Data.Vector.length $ getCol 1 mtr
+import UsualMult
+import WinogradMult
+import WinogradMultU1
 
-                   
-scalm :: Vector Int -> Vector Int -> Int 
-scalm v1 v2 = if Data.Vector.length v1 == Data.Vector.length v2
-                then Prelude.sum [(v1 !! i)*(v2 !! i) | i <- [0..(Data.Vector.length v1 - 1)]]
-                else 0
-{-
-sumArr :: [Int] -> Int -> Int
-sumArr [] n = n
-sumArr arr n = sumArr (Prelude.tail arr) (n + Prelude.head arr) 
--}
-test :: Vector Int -> Vector Int
-test q = q
+import Control.Exception
+import Data.Time.Clock
+import System.Environment
+import Prelude as P
 
 main :: IO()
 main = do
-    let mtr = fromLists [[1,2], [3,4]]
+    args <- getArgs
+    let len = if P.length args > 0
+                then
+                    read numb::Int
+                else 1000 
+                where
+                    numb = args !! 0
+
+    let m = [[12 | i <- [1..len]] | j <- [1..len]]
+
+    let m1 = fromLists [[12 | i <- [1..len]] | j <- [1..len]]
+
+    let mtr = [[1,2],[3,4]]
+    let mtrl = fromLists mtr
+
+    -- Winograd
+    start <- getCurrentTime
+    evaluate $ wMult m1 m1
+    end <- getCurrentTime
+
+    -- putStr "  WTime: "
+    -- print $ diffUTCTime end start
     
-    let v1 = [1,2]
-    let v2 = [1,2]
+    appendFile "wMult_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
+
+{--}   
+{- 
+    -- WinogradU1
+    start <- getCurrentTime
+    evaluate $ wMultU1 m1 m1
+    end <- getCurrentTime
+
+    putStr "WU1Time: "
+    print $ diffUTCTime end start 
+
+    print $ show $ diffUTCTime end start 
+
+
+    -- Usual
+    start <- getCurrentTime
+    print $  fromLists $ mult mtr mtr
+    end <- getCurrentTime
+
+    putStr "UTime: "
+    print $ diffUTCTime end start 
+
+    -- Default
+    start <- getCurrentTime
+    print $  multStrassenMixed mtrl mtrl
+    end <- getCurrentTime
+
+    putStr "DTime: "
+    print $ diffUTCTime end start 
+-}
+
     
-    -- print $ sum $ getRow 1 mtr
-    print $ scalm getRow 1 mtr getRow 2 mtr
