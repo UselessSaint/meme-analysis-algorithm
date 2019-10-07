@@ -28,7 +28,7 @@ main = do
 
     let mtr = [[1,2],[3,4]]
     let mtrl = fromLists mtr
-
+{-
     -- Winograd
     start <- getCurrentTime
     evaluate $ wMult m1 m1
@@ -38,27 +38,30 @@ main = do
     -- print $ diffUTCTime end start
     
     appendFile "wMult_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
+-}
+   
 
-{--}   
-{- 
     -- WinogradU1
     start <- getCurrentTime
     evaluate $ wMultU1 m1 m1
     end <- getCurrentTime
 
-    putStr "WU1Time: "
-    print $ diffUTCTime end start 
+    -- putStr "WU1Time: "
+    -- print $ diffUTCTime end start 
 
-    print $ show $ diffUTCTime end start 
+    appendFile "wMultU1_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
 
 
+{- 
     -- Usual
     start <- getCurrentTime
-    print $  fromLists $ mult mtr mtr
+    evaluate $ mult m m
     end <- getCurrentTime
 
-    putStr "UTime: "
-    print $ diffUTCTime end start 
+    -- putStr "UTime: "
+    -- print $ diffUTCTime end start 
+    
+    appendFile "uMult_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
 
     -- Default
     start <- getCurrentTime
