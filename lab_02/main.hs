@@ -22,14 +22,18 @@ main = do
                 where
                     numb = args !! 0
 
-    let m = [[12 | i <- [1..len]] | j <- [1..len]]
-
-    let m1 = fromLists [[12 | i <- [1..len]] | j <- [1..len]]
-
+    let m = [[2 | i <- [1..len]] | j <- [1..len]]
+    let m1 = fromLists [[2 | i <- [1..len]] | j <- [1..len]]
+    let m2 = fromLists [[2 | i <- [1..len]] | j <- [1..len]]
+    let m4 = [[2 | i <- [1..len]] | j <- [1..len]]
+    
+    let mtr1 = [[1,2,3],[1,2,3],[1,2,3]]
     let mtr = [[1,2],[3,4]]
-    let mtrl = fromLists mtr
-{-
-    -- Winograd
+    
+    --print $ fromLists $ wMultU1 mtr mtr
+    --print $ fromLists $ mult mtr mtr
+    
+   -- Winograd
     start <- getCurrentTime
     evaluate $ wMult m1 m1
     end <- getCurrentTime
@@ -38,12 +42,10 @@ main = do
     -- print $ diffUTCTime end start
     
     appendFile "wMult_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
--}
-   
 
-    -- WinogradU1
+   -- WinogradU1
     start <- getCurrentTime
-    evaluate $ wMultU1 m1 m1
+    evaluate $ wMultU1 m4 m4
     end <- getCurrentTime
 
     -- putStr "WU1Time: "
@@ -51,9 +53,7 @@ main = do
 
     appendFile "wMultU1_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
 
-
-{- 
-    -- Usual
+   -- Usual
     start <- getCurrentTime
     evaluate $ mult m m
     end <- getCurrentTime
@@ -62,14 +62,5 @@ main = do
     -- print $ diffUTCTime end start 
     
     appendFile "uMult_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
-
-    -- Default
-    start <- getCurrentTime
-    print $  multStrassenMixed mtrl mtrl
-    end <- getCurrentTime
-
-    putStr "DTime: "
-    print $ diffUTCTime end start 
--}
-
+    
     
