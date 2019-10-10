@@ -5,7 +5,7 @@ import Data.Vector
 
 wMultU1 :: (Num a) => Matrix a -> Matrix a -> Matrix a
 wMultU1 m1 m2 = 
-    if m == n
+    if m == n'
         then res 
         else error "Mtr.Size.Error"
     where

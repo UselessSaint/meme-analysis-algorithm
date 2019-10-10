@@ -28,7 +28,7 @@ main = do
     let m2 = fromLists [[2 | i <- [1..len]] | j <- [1..len]]
     let m3 = fromLists [[2 | i <- [1..len]] | j <- [1..len]]
     let m4 = [[2 | i <- [1..len]] | j <- [1..len]]
-    let m5 = [[2 | i <- [1..len]] | j <- [1..len]]
+    let m5 = fromLists [[2 | i <- [1..len]] | j <- [1..len]]
 
    -- Winograd
     start <- getCurrentTime
@@ -49,7 +49,7 @@ main = do
     --print $ diffUTCTime end start 
 
     appendFile "wMultU1_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
-    
+
    -- WinogradU2
     start <- getCurrentTime
     evaluate $ wMultU2 m3 m3
@@ -72,7 +72,7 @@ main = do
 
    -- Usual
     start <- getCurrentTime
-    evaluate $ mult m4 m4
+    evaluate $ uMult m4 m4
     end <- getCurrentTime
 
     -- putStr "UTime: "

@@ -5,8 +5,8 @@ import Data.Vector
 
 wMultU2 :: (Num a) => Matrix a -> Matrix a -> Matrix a
 wMultU2 m1 m2 = 
-    if m == n
-        then res 
+    if m == n'
+        then res
         else error "Mtr.Size.Error"
     where
         n = nrows m1
@@ -20,15 +20,16 @@ wMultU2 m1 m2 =
         m1PreCalc = [Prelude.sum ([-1*(getElem i j m1)*(getElem i (j+1) m1) | j <- [1, 3..np'-1]])
                          | i <- [1..n]]
         m2PreCalc = [Prelude.sum ([-1*(getElem j i m2)*(getElem (j+1) i m2) | j <- [1, 3..mp-1]])
-                         | i <- [1..m']]
-
+                         | i <- [1..m']] 
+                                                
         res = if odd n'
-               then matrix n m' $ \(i,j) ->
+            then matrix n m' $ \(i,j) ->
                     (m1PreCalc !! (i-1)) + (m2PreCalc !! (j-1)) +  
-                    wMultU2' (getRow i m1) n (getCol j m2) m' + getElem i n' m1 * getElem m j m2
-               else matrix n m' $ \(i,j) ->
+                    wMultU2' (getRow i m1) n (getCol j m2) m' 
+                    + getElem i n' m1 * getElem m j m2
+            else matrix n m' $ \(i,j) ->
                     (m1PreCalc !! (i-1)) + (m2PreCalc !! (j-1)) +  
-                    wMultU2' (getRow i m1) n (getCol j m2) m'
+                    wMultU2' (getRow i m1) n (getCol j m2) m' 
 
 wMultU2' :: (Num a) => Vector a -> Int -> Vector a -> Int -> a
 wMultU2' v1 n v2 m = 
@@ -36,10 +37,6 @@ wMultU2' v1 n v2 m =
         then res
         else error "Oh no, smth goes wrong"
     where
-        --n = Data.Vector.length v1
-        --m = Data.Vector.length v2
-
         n' = if even n then n else n-1
 
-        res = Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1)))*
-                              ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 3..n'-2] ] )
+        res = Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1))) * ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 3..n'-2] ] )
