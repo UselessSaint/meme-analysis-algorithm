@@ -59,16 +59,16 @@ main = do
     --print $ diffUTCTime end start 
 
     appendFile "wMultU2_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
-    
+{-
    -- WinogradU3
     start <- getCurrentTime
-    evaluate $ wMultU3 m5 m5
+    print $ wMultU3 mtr mtr
     end <- getCurrentTime
 
-    --putStr "WU3Time: "
-    --print $ diffUTCTime end start 
+    putStr "WU3Time: "
+    print $ diffUTCTime end start 
 
-    appendFile "wMultU3_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
+    -- appendFile "wMultU3_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")-}
 
    -- Usual
     start <- getCurrentTime

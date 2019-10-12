@@ -25,11 +25,11 @@ module WinogradMultU3 where
             res = if odd n'
                 then matrix n m' $ \(i,j) ->
                             (m1PreCalc !! (i-1)) + (m2PreCalc !! (j-1)) +  
-                            (sub (getRow i m1) (getCol j m2) np') + 
+                            Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1))) * ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 3..n'-2] ] ) + 
                             getElem i n' m1 * getElem m j m2
                 else matrix n m' $ \(i,j) ->
                             (m1PreCalc !! (i-1)) + (m2PreCalc !! (j-1)) +  
-                            (sub (getRow i m1) (getCol j m2) np')
+                            Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1))) * ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 3..n'-2] ] )
                     where 
                         sub = \v1 v2 np' -> Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1))) * ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 3..n'-2] ] )
 
