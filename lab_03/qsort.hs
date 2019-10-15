@@ -1,8 +1,8 @@
 module Qsort where
 
-qSort :: [a] -> [a]
+qSort :: (Ord a) => [a] -> [a]
 qSort [] = []
-qSort (xs:x) = qSort(left) ++ xs ++ qSort(right)
+qSort (x:xs) = qSort(left) ++ [x] ++ qSort(right)
     where
-        left = [a | a <- x, a <= xs]
-        right = [a | a <- x, a > xc]
+        left = [a | a <- xs, a <= x]
+        right = [a | a <- xs, a > x]
