@@ -17,10 +17,8 @@ wMult m1 m2 =
         np' = if even n' then n' else n' - 1
         mp = if even m then m else m - 1
 
-        m1PreCalc = [Prelude.sum ([-1*(getElem i j m1)*(getElem i (j+1) m1) | j <- [1, 3..np'-1]])
-                         | i <- [1..n]]
-        m2PreCalc = [Prelude.sum ([-1*(getElem j i m2)*(getElem (j+1) i m2) | j <- [1, 3..mp-1]])
-                         | i <- [1..m']]
+        m1PreCalc = [Prelude.sum ([-1*(getElem i j m1)*(getElem i (j+1) m1) | j <- [1, 3..np'-1]]) | i <- [1..n]]  
+        m2PreCalc = [Prelude.sum ([-1*(getElem j i m2)*(getElem (j+1) i m2) | j <- [1, 3..mp-1]]) | i <- [1..m']]
 
         res = matrix n m' $ \(i,j) ->
                 (m1PreCalc !! (i-1)) + (m2PreCalc !! (j-1)) +  
@@ -39,4 +37,4 @@ wMult' v1 v2 =
         n' = if even n then n else n-1
 
         res = Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1)))*
-                              ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 3..n'-2] ] )
+                              ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 2..n'-2] ] )

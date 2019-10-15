@@ -33,10 +33,7 @@ wMultU1' v1 n v2 m =
         then res
         else error "Oh no, smth goes wrong"
     where
-        --n = Data.Vector.length v1
-        --m = Data.Vector.length v2
-
         n' = if even n then n else n-1
 
         res = Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1)))*
-                              ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 3..n'-2] ] )
+                              ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 2..n'-2] ] )

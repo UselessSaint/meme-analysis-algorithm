@@ -39,4 +39,5 @@ wMultU2' v1 n v2 m =
     where
         n' = if even n then n else n-1
 
-        res = Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1))) * ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 3..n'-2] ] )
+        res = Prelude.sum ( [ ((unsafeIndex v1 i) + (unsafeIndex v2 (i+1))) * 
+                              ((unsafeIndex v1 (i+1) + (unsafeIndex v2 i))) | i <- [0, 2..n'-2] ] )

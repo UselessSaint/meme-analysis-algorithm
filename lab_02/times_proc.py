@@ -1,5 +1,5 @@
-files = ["uMult_times_proc.txt", "wMult_times_proc.txt", "wMultU1_times_proc.txt", "wMultU2_times_proc.txt", "wMultU3_times_proc.txt"]
-giles = ["uMult_times.txt", "wMult_times.txt", "wMultU1_times.txt", "wMultU2_times.txt", "wMultU3_times.txt"]
+files = ["uMult_times_proc.txt", "wMult_times_proc.txt", "wMultU1_times_proc.txt", "wMultU2_times_proc.txt", "wMultU3_times_proc.txt", "uMultLib_times_proc.txt"]
+giles = ["uMult_times.txt", "wMult_times.txt", "wMultU1_times.txt", "wMultU2_times.txt", "wMultU3_times.txt", "uMultLib_times.txt"]
 
 for i in range(len(files)):
     f = open(files[i], "w")
@@ -17,7 +17,7 @@ for i in range(len(files)):
                 t[temp[0]] += float(temp[1][:-1])
 
     for key in t.keys():
-        f.write(key + ' ' + str(t[key]/50) + '\n')
+        f.write(key + ' ' + str(round(t[key]/10, 5)) + '\n')
 
     f.close()
     g.close()
