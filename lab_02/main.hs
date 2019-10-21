@@ -1,5 +1,7 @@
 module Main where
 
+{-# LANGUAGE BangPatterns #-}
+
 import Data.Matrix
 import Data.Vector
 
@@ -11,12 +13,12 @@ import WinogradMultU2
 import WinogradMultU3
 
 import Control.Exception
-import Control.DeepSeq as D
+import Control.DeepSeq
 import Data.Time.Clock
 import System.IO
 import System.Environment
 import Prelude as P
-
+    
 test :: Int -> IO()
 test len = do
     let m1m = fromLists [[1 | i <- [1..len]] | j <- [1..len]]
@@ -49,7 +51,7 @@ test len = do
     --print $ diffUTCTime end start 
 
     appendFile "wMultU1_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")-}
-
+{-
    -- WinogradU2
     start <- getCurrentTime
     let r3 =  wMultU2 m3m m3m
@@ -59,18 +61,18 @@ test len = do
     --putStr "WU2Time: "
     --print $ diffUTCTime end start 
 
-    appendFile "wMultU2_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
-{-
+    appendFile "wMultU2_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")-}
+
     -- WinogradU3
     start <- getCurrentTime
     let r4 =  wMultU3 m6 m6
     evaluate $ ((r4 !! (len-1)) !! (len-1))
     end <- getCurrentTime
    
-    --putStr "WU3Time: "
-    --print $ diffUTCTime end start 
+    putStr "WU3Time: "
+    print $ diffUTCTime end start 
    
-    appendFile "wMultU3_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
+    --appendFile "wMultU3_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
 
    -- Usual
     start <- getCurrentTime
@@ -78,11 +80,12 @@ test len = do
     evaluate $ ((r5 !! (len-1)) !! (len-1))
     end <- getCurrentTime
 
-    --putStr "  UTime: "
-    --print $ diffUTCTime end start
+    putStr "  UTime: "
+    print $ diffUTCTime end start
     
-    appendFile "uMult_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
-
+    -- appendFile "uMult_times.txt" ((show len) P.++ " " P.++ (show $ diffUTCTime end start) P.++ "\n")
+    
+{-
    -- UsualLib
     start <- getCurrentTime
     let r6 = uMultLib m5m m5m

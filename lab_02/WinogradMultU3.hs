@@ -7,7 +7,7 @@ transpW mtr = [[(mtr !! i) !! j | i <- [0..m-1]] | j <- [0..n-1]]
                     m = Prelude.length $ mtr
     
 wMultU3 :: (Num a) => [[a]] -> [[a]] -> [[a]]
-wMultU3 m1 m2 = 
+wMultU3 m1 m2 =     
     if m == n'
         then res 
         else error "Mtr.Size.Error"
