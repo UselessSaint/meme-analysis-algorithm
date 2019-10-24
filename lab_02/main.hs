@@ -1,7 +1,5 @@
 module Main where
 
-{-# LANGUAGE BangPatterns #-}
-
 import Data.Matrix
 import Data.Vector
 
@@ -100,7 +98,7 @@ test len = do
 main :: IO()
 main = do
     hSetBuffering stdout NoBuffering
-
+{-
     args <- getArgs
     if P.length args > 0
         then test (read (args !! 0)::Int)
@@ -124,7 +122,27 @@ main = do
             print $ fromLists $ uMult mtr1 mtr2
 
             putStr "Winograd Mult: \n"
-            print $ wMult (fromLists mtr1) (fromLists mtr2)
+            print $ wMult (fromLists mtr1) (fromLists mtr2)-}
+            
+    let len = 1000
+            
+    let m4 = [[1 | i <- [1..len]] | j <- [1..len]]
+    let m2 = [[1 | i <- [1..len]] | j <- [1..len]]
+            
+    start <- getCurrentTime
+    let r5 = uMult m4 m4
+    print $ ((r5 !! (len-1)) !! (len-1))
+    end <- getCurrentTime
+
+    putStr "  U1Time: "
+    print $ diffUTCTime end start
+    
+    start <- getCurrentTime
+    let !r5 = uMult m2 m2
+    end <- getCurrentTime
+
+    putStr "  U2Time: "
+    print $ diffUTCTime end start
             
 
                 
