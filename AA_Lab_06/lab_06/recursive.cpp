@@ -5,7 +5,7 @@ pathInfo findPathRecursiveForAll(const MtrInt &map, const size_t amount)
     pathInfo best;
     pathInfo tmp;
 
-    for (size_t i = 0; i < amount; i++)
+	for (size_t i = 0; i < amount; i++)
     {
         pathInfo def;
         def.path.push_back(i);
@@ -35,9 +35,9 @@ pathInfo findPathRecursive(const MtrInt &map,const size_t amount, pathInfo currP
 			nextPath.len += map[currCity][i];
 			tmp = findPathRecursive(map, amount, nextPath, i);
 
-			if (currBest.len == 0)
+			if (currBest.len == 0 && tmp.path.size() == amount)
 				currBest = tmp;
-			if (currBest.len > tmp.len)
+			if (currBest.len > tmp.len && tmp.path.size() == amount)
 				currBest = tmp;
 		}
 	}

@@ -95,7 +95,8 @@ void recalculateTau(environment &env)
 	{
 		for (size_t j = 0; j < env.cities; j++)
 		{
-			env.tau[i][j] = env.tau[i][j]*(1 - env.ro) + env.dTau[i][j];
+            env.tau[i][j] = env.tau[i][j]*(1 - env.ro) + env.dTau[i][j];
+            env.dTau[i][j] = 0;
 		}
 	}
 }
