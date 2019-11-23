@@ -48,12 +48,12 @@ MtrInt getMatrix()
 	return mtr;
 }
 
-environment setEnviroment(size_t icities)
+environment setEnviroment(MtrInt &mtr)
 {
 	environment env;
 
-	MtrInt map;
-	size_t cities = icities;
+    MtrInt map = mtr;
+    size_t cities = mtr.size();
 
 	env.map = map;
 	env.cities = cities;
@@ -70,8 +70,6 @@ environment setEnviroment(size_t icities)
 		env.tau.push_back(tmpTau);
 		env.dTau.push_back(tmpDTau);
 	}
-
-	env.Q = 20;
 
 	return env;
 }

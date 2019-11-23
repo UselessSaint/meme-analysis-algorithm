@@ -28,13 +28,13 @@ struct environment
 	double alpha = 0.5;
 	double beta = 0.5;
 	double ro = 0.5;
-	double Q;
+    double Q = 20;
 	size_t tMax = 10;
 	double minTau = 1;
 };
 
 bool isInVector(std::vector<size_t> path, size_t city);
 MtrInt getMatrix();
-environment setEnviroment(size_t icities);
+environment setEnviroment(MtrInt &mtr);
 
 #endif // UTILITY_H

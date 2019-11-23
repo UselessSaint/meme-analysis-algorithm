@@ -7,7 +7,7 @@ int main()
 {
 	MtrInt mtr = getMatrix();
 
-	for (auto it : mtr)
+    /*for (auto it : mtr)
 	{
 		for (auto i : it)
 		{
@@ -30,9 +30,7 @@ int main()
 
 	std::cout << "\n";
 //-------------------------- REC
-	pathInfo defPath;
-	defPath.path.push_back(0);
-	pathInfo resPath = findPathRecursive(mtr, mtr.size(), defPath, 0);
+    pathInfo resPath = findPathRecursiveForAll(mtr, mtr.size());
 
 	for (size_t i = 0; i < resPath.path.size(); i++)
 	{
@@ -48,11 +46,10 @@ int main()
 //-------------------------- REC
 //-------------------------- COLONY
 	std::srand(unsigned(std::time(NULL)));
-	for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 1; i++)
 	{
-		environment env = setEnviroment(mtr.size());
-		env.map = mtr;
-		env.tMax = 400;
+        environment env = setEnviroment(mtr);
+        env.tMax = 1;
 
 		pathInfo t = runColony(env);
 
@@ -67,6 +64,38 @@ int main()
 		std::cout << "\n";
 	}
 //-------------------------- COLONY
+*/
+
+    pathInfo recRes = findPathRecursiveForAll(mtr, mtr.size());
+    std::cout << recRes.len*2 << "<- RecLen (Prob. the best one)\n";
+    for (auto it : recRes.path)
+        std::cout << it << " ";
+    std::cout << "\n" << "\n";
+
+    std::vector<double> alphaTest = { 0, 0.2, 0.4, 0.5, 0.6, 0.8, 1 };
+    std::vector<size_t> tMaxTest = { 10, 20, 40, 60, 80, 100, 120 };
+
+    for (auto aIt : alphaTest)
+    {
+        for (auto tIt : tMaxTest)
+        {
+            environment env = setEnviroment(mtr);
+            env.tMax = tIt;
+            env.alpha = aIt;
+            env.beta = 1 - aIt;
+
+            env.Q = recRes.len % 1000 - recRes.len % 100 - recRes.len % 10;
+
+            pathInfo t = runColony(env);
+
+            std::cout << env.alpha << " " << env.beta << " " << env.tMax << " " << env.Q << "\n";
+            for (auto it : t.path)
+                std::cout << it << " ";
+            std::cout << "--" << t.len << "\n" << "--" << "\n";
+        }
+        std::cout << "\n";
+    }
+
 
 	getchar();
 
