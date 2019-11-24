@@ -6,7 +6,7 @@
 int main()
 {
 	MtrInt mtr = getMatrix();
-/*
+
 	for (auto it : mtr)
 	{
 		for (auto i : it)
@@ -45,6 +45,7 @@ int main()
 	std::cout << "\n";
 //-------------------------- REC
 //-------------------------- COLONY
+	/*
 	std::srand(unsigned(std::time(NULL)));
     for (int i = 0; i < 1; i++)
 	{
@@ -62,9 +63,9 @@ int main()
 			std::cout << mtr[t.path[i]][t.path[i+1]] << " ";
 		}
 		std::cout << "\n";
-	}
+	}*/
 //-------------------------- COLONY
-*/
+
 
     pathInfo recRes = findPathRecursiveForAll(mtr, mtr.size());
     std::cout << recRes.len*2 << "<- RecLen (Prob. the best one)\n";
@@ -72,7 +73,7 @@ int main()
         std::cout << it << " ";
     std::cout << "\n" << "\n";
 
-	int v = 1;
+	int v = 20;
     std::vector<double> alphaTest = { 0, 0.2, 0.4, 0.5, 0.6, 0.8, 1 };
 	std::vector<size_t> tMaxTest = { 10, 20, 40, 60, 80, 100, 220 };
 
@@ -92,6 +93,15 @@ int main()
 			{
 				environment tEnv = env;
 				pathInfo t = runColony(tEnv);
+				std::cout << t.len << " ";
+				if (t.len == 0)
+					k -= 1;
+				if (t.len < 600)
+				{
+					for (auto M : t.path)
+						std::cout << std::endl << M;
+					std::cout << std::endl;
+				}
 
 				avg += t.len;
 			}

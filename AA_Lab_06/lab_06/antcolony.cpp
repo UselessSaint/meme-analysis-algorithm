@@ -19,6 +19,8 @@ pathInfo runColony(environment &env)
 		recalculateTau(env);
 	}
 
+	if (curBest.path.size() != env.cities)
+		curBest.len = 0;
 	return curBest;
 }
 
@@ -30,11 +32,14 @@ pathInfo runAnt(environment &env, size_t baseCity)
 	{
 		std::vector<double> probs;
 		double probsDivider = 0;
-		curPath.path.push_back(baseCity);
+		if (!isInVector(curPath.path, baseCity))
+			curPath.path.push_back(baseCity);
+		else
+			break;
 
 		for (size_t i = 0; i < env.cities; i++)
 		{
-			if (env.map[baseCity][i] != 0 && !isInVector(curPath.path, i))
+			if (env.map[baseCity][i] > 0 && !isInVector(curPath.path, i))
 			{
 				probsDivider += std::pow(env.tau[baseCity][i], env.alpha)*
 								std::pow(std::pow(env.map[baseCity][i], -1), env.beta);
@@ -43,7 +48,7 @@ pathInfo runAnt(environment &env, size_t baseCity)
 
 		for (size_t i = 0; i < env.cities; i++)
 		{
-			if (isInVector(curPath.path, i) || env.map[baseCity][i] == 0)
+			if (isInVector(curPath.path, i) || env.map[baseCity][i] <= 0)
 				probs.push_back(0);
 			else
 				probs.push_back(std::pow(env.tau[baseCity][i], env.alpha)*
@@ -64,7 +69,7 @@ pathInfo runAnt(environment &env, size_t baseCity)
 		for (size_t i = 0; i < env.cities; i++)
 		{
 			probsSum += probs[i];
-			if (probsSum > randVal)
+			if (probsSum >= randVal && !isInVector(curPath.path, i))
 			{
 				curPath.len += env.map[baseCity][i];
 
