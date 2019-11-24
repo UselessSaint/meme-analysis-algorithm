@@ -39,6 +39,8 @@ MtrInt getMatrix()
 			}
 			mtr.push_back(row);
 		}
+
+		file.close();
 	}
 	else
 	{

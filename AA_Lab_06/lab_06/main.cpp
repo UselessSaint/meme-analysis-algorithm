@@ -6,7 +6,7 @@
 int main()
 {
 	MtrInt mtr = getMatrix();
-
+/*
 	for (auto it : mtr)
 	{
 		for (auto i : it)
@@ -64,7 +64,7 @@ int main()
 		std::cout << "\n";
 	}
 //-------------------------- COLONY
-
+*/
 
     pathInfo recRes = findPathRecursiveForAll(mtr, mtr.size());
     std::cout << recRes.len*2 << "<- RecLen (Prob. the best one)\n";
@@ -72,6 +72,7 @@ int main()
         std::cout << it << " ";
     std::cout << "\n" << "\n";
 
+	int v = 1;
     std::vector<double> alphaTest = { 0, 0.2, 0.4, 0.5, 0.6, 0.8, 1 };
 	std::vector<size_t> tMaxTest = { 10, 20, 40, 60, 80, 100, 220 };
 
@@ -84,10 +85,10 @@ int main()
             env.alpha = aIt;
             env.beta = 1 - aIt;
 
-			env.Q = recRes.len*2 % 1000 - recRes.len % 100 - recRes.len % 10;
+			env.Q = recRes.len*2 % 1000 - recRes.len*2 % 100 - recRes.len*2 % 10;
 
 			int avg = 0;
-			for (int k = 0; k < 10; k++)
+			for (int k = 0; k < v; k++)
 			{
 				environment tEnv = env;
 				pathInfo t = runColony(tEnv);
@@ -96,13 +97,13 @@ int main()
 			}
 
 			std::cout << env.alpha << " " << env.beta << " " << env.tMax << " " << env.Q;
-			std::cout << " -- " << avg/10 << "\n" << "--" << "\n";
+			std::cout << " -- " << avg/v << "\n" << "--" << "\n";
         }
         std::cout << "\n";
 	}
 
 
-	//getchar();
+	getchar();
 
 	return 0;
 }
