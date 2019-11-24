@@ -20,7 +20,7 @@ for i in range(len(files)):
             t[temp[0]] += float(temp[1][:-1])
             
     for key in t.keys():
-        f.write(key + ' ' + str(round(t[key]/10, 5)) + '\n')
+        f.write(key + ' ' + str(round(t[key]/100, 5)) + '\n')
 
     f.close()
     g.close()
