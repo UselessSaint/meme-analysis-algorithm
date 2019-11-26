@@ -19,8 +19,6 @@ pathInfo runColony(environment &env)
 		recalculateTau(env);
 	}
 
-	if (curBest.path.size() != env.cities)
-		curBest.len = 0;
 	return curBest;
 }
 
