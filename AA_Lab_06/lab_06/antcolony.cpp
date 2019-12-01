@@ -9,6 +9,7 @@ pathInfo runColony(environment &env)
 		for (size_t j = 0; j < env.cities; j++)
 		{
 			pathInfo tmp =  runAnt(env, j);
+			tmp.len += env.map[tmp.path[0]][tmp.path[tmp.path.size()-1]];
 
 			if (tmp.path.size() == env.cities && curBest.len == 0)
 				curBest = tmp;
@@ -80,7 +81,6 @@ pathInfo runAnt(environment &env, size_t baseCity)
 	size_t curPathSize = curPath.path.size();
 	if (curPathSize == env.cities)
 	{
-		curPath.len *= 2;
 		double dTau = env.Q / curPath.len;
 		for (size_t i = 0; i < curPathSize - 1; i++)
 		{
