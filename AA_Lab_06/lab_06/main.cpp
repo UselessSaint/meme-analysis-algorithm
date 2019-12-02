@@ -68,12 +68,30 @@ int main()
 
 	if (ans == "Y" || ans == "y")
 	{
-		std::string fName;
+        MtrInt mtr = getMatrix();
+
+        clock_t st = clock();
+
+        pathInfo resRec = findPathRecursiveForAll(mtr, mtr.size());
+
+        clock_t end = clock();
+
+        double tm = static_cast<double>(end - st) / CLOCKS_PER_SEC;
+
+        std::cout << "ResRec len.: " << resRec.len << std::endl;
+        std::cout << "ResRec path.: ";
+        for (auto it : resRec.path)
+            std::cout << it << " ";
+        std::cout << std::endl;
+
+        std::cout << "ResRec time.: " << tm << std::endl;
+
+        /*std::string fName;
 
 		std::cout << "Enter test file name: ";
 		std::getline(std::cin, fName);
 
-		test(fName);
+        test(fName);*/
 	}
 	else
 	{

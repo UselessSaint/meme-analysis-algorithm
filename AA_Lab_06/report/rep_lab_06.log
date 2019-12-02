@@ -1,11 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  1 DEC 2019 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  2 DEC 2019 16:54
 entering extended mode
 **./rep_lab_06.tex
 (rep_lab_06.tex
 LaTeX2e <2018-12-01>
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report
+.cls"
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12
+.clo"
 File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -21,26 +25,30 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
-"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+math.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
-"
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+text.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
- ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
-"
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+gen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+bsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
-) ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
-y"
+)
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+opn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count89
@@ -81,85 +89,87 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.s
-ty"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-.revision.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfplots\pg
+fplots.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplots.revision.tex")
 Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gr
+aphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
-"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ke
+yval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gr
+aphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tr
+ig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
-cs.cfg"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cf
+g\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
-.def"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-de
+f\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\t
-ikz.sty"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.
-sty"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrc
-s.sty"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
-util-common.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/fronten
+dlayer\tikz.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basicla
+yer\pgf.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
+es\pgfrcs.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfutil-common.tex"
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen114
 \pgfutil@tempdimb=\dimen115
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
-util-common-lists.tex"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
-util-latex.def"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfutil-common-lists.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfutil-latex.def"
 \pgfutil@abb=\box29
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi
+.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
-rcs.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.
-tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfrcs.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.r
+evision.tex")
 Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
 ))
 Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfc
-ore.sty"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgf
-sys.sty"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
-gfsys.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basicla
+yer\pgfcore.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systeml
+ayer\pgfsys.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsys.code.tex"
 Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
-keys.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
-keysfiltered.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen116
@@ -183,35 +193,36 @@ keysfiltered.code.tex"
 \t@pgf@tokc=\toks26
 \pgf@sys@id@count=\count105
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
-gf.cfg"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgf.cfg"
 File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
-gfsys-pdftex.def"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
-gfsys-common-pdf.def"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
 )))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
-gfsyssoftpath.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfsyssoftpath@smallbuffer@items=\count106
 \pgfsyssoftpath@bigbuffer@items=\count107
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
-gfsysprotocol.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syste
+mlayer\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcol
+or.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
-cfg"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cf
+g\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -225,18 +236,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcore.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcore.code.tex"
 Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
-code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathc
-alc.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathu
-til.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathp
-arser.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmath.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathcalc.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathutil.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen126
 \pgfmath@count=\count108
 \pgfmath@box=\box30
@@ -244,32 +255,32 @@ arser.code.tex"
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.basic.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.trigonometric.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.random.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.comparison.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.base.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.round.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.misc.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-unctions.integerarithmetics.code.tex")))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
-loat.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.basic.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.trigonometric.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.random.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.comparison.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.base.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.round.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.misc.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfunctions.integerarithmetics.code.tex")))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count109
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.c
-ode.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorepoints.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfint.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@picminx=\dimen127
 \pgf@picmaxx=\dimen128
@@ -286,133 +297,133 @@ File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@zx=\dimen139
 \pgf@zy=\dimen140
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorepathconstruct.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@path@lastx=\dimen141
 \pgf@path@lasty=\dimen142
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorepathusage.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@shorten@end@additional=\dimen143
 \pgf@shorten@start@additional=\dimen144
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorescopes.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
 \pgf@picture@serial@count=\count110
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcoregraphicstate.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgflinewidth=\dimen145
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcoretransformations.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@pt@x=\dimen146
 \pgf@pt@y=\dimen147
 \pgf@pt@temp=\dimen148
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorequick.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcoreobjects.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorepathprocessing.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorearrows.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfarrowsep=\dimen149
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcoreshade.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@max=\dimen150
 \pgf@sys@shading@range@num=\count111
 \pgf@shadingcount=\count112
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcoreimage.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcoreexternal.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfexternal@startupbox=\box34
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorelayers.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcoretransparency.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorepatterns.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
-fcorerdf.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basic
+layer\pgfcorerdf.code.tex"
 File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
-duleshapes.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modul
+es\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfnodeparttextbox=\box35
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
-duleplot.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modul
+es\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
-gfcomp-version-0-65.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compati
+bility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@nodesepstart=\dimen151
 \pgf@nodesepend=\dimen152
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
-gfcomp-version-1-18.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compati
+bility\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffo
-r.sty"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfke
-ys.sty"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
-keys.code.tex"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.st
-y"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
-code.tex"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
-for.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
+es\pgffor.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utiliti
+es\pgfkeys.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgfkeys.code.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pg
+fmath.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmath.code.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utili
+ties\pgffor.code.tex"
 Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
-code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\
+pgfmath.code.tex")
 \pgffor@iter=\dimen153
 \pgffor@skip=\dimen154
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
-/tikz\tikz.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/front
+endlayer/tikz\tikz.code.tex"
 Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
-libraryplothandlers.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libra
+ries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@plot@mark@count=\count113
 \pgfplotmarksize=\dimen155
@@ -434,8 +445,8 @@ File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \tikznumberofcurrentchild=\count116
 \tikz@fig@count=\count117
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
-dulematrix.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modul
+es\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfmatrixcurrentrow=\count118
 \pgfmatrixcurrentcolumn=\count119
@@ -443,14 +454,14 @@ File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
 \tikz@expandcount=\count121
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
-/tikz/libraries\tikzlibrarytopaths.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/front
+endlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-core.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplots.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplotscore.code.tex"
 \t@pgfplots@toka=\toks32
 \t@pgfplots@tokb=\toks33
 \t@pgfplots@tokc=\toks34
@@ -458,73 +469,73 @@ core.code.tex"
 \c@pgfplots@coordindex=\count122
 \c@pgfplots@scanlineindex=\count123
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\pgfp
-lotssysgeneric.code.tex"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\pgf
-plotslibrary.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/oldpgfco
-mpatib\pgfplotsoldpgfsupp_loader.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
-libraryfpu.code.tex"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgf
-plotsutil.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststru
-cture\pgfplotsliststructure.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststru
-cture\pgfplotsliststructureext.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststru
-cture\pgfplotsarray.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+sys\pgfplotssysgeneric.code.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+libs\pgfplotslibrary.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libra
+ries\pgflibraryfpu.code.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+util\pgfplotsutil.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+liststructure\pgfplotsliststructure.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+liststructure\pgfplotsliststructureext.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+liststructure\pgfplotsarray.code.tex"
 \c@pgfplotsarray@tmp=\count124
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststru
-cture\pgfplotsmatrix.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/numtable
-\pgfplotstableshared.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+liststructure\pgfplotsmatrix.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+numtable\pgfplotstableshared.code.tex"
 \c@pgfplotstable@counta=\count125
 \t@pgfplotstable@a=\toks35
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststru
-cture\pgfplotsdeque.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgf
-plotsbinary.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgf
-plotsbinary.data.code.tex"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgf
-plotsutil.verb.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\pgf
-librarypgfplots.surfshading.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+liststructure\pgfplotsdeque.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+util\pgfplotsbinary.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+util\pgfplotsbinary.data.code.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+util\pgfplotsutil.verb.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+libs\pgflibrarypgfplots.surfshading.code.tex"
 \c@pgfplotslibrarysurf@no=\count126
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\pgfl
-ibrarypgfplots.surfshading.pgfsys-pdftex.def")))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgf
-plotscolormap.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pgf
-plotscolor.code.tex"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-stackedplots.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-plothandlers.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-meshplothandler.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-meshplotimage.code.tex")))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-.scaling.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-coordprocessing.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-.errorbars.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-.markers.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-ticks.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplots
-.paths.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
-/tikz/libraries\tikzlibrarydecorations.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
-duledecorations.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+util\pgfplotscolormap.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+util\pgfplotscolor.code.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplotsstackedplots.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplotsplothandlers.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplotsmeshplothandler.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplotsmeshplotimage.code.tex")))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplots.scaling.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplotscoordprocessing.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplots.errorbars.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplots.markers.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplotsticks.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\
+pgfplots.paths.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/front
+endlayer/tikz/libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modul
+es\pgfmoduledecorations.code.tex"
 \pgfdecoratedcompleteddistance=\dimen165
 \pgfdecoratedremainingdistance=\dimen166
 \pgfdecoratedinputsegmentcompleteddistance=\dimen167
@@ -536,14 +547,14 @@ duledecorations.code.tex"
 )
 \tikz@lib@dec@box=\box40
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
-/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/dec
-orations\pgflibrarydecorations.pathmorphing.code.tex"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
-/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/dec
-orations\pgflibrarydecorations.pathreplacing.code.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/front
+endlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libra
+ries/decorations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/front
+endlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libra
+ries/decorations\pgflibrarydecorations.pathreplacing.code.tex"))
 \pgfplots@numplots=\count128
 \pgfplots@xmin@reg=\dimen172
 \pgfplots@xmax@reg=\dimen173
@@ -552,40 +563,45 @@ orations\pgflibrarydecorations.pathreplacing.code.tex"))
 \pgfplots@zmin@reg=\dimen176
 \pgfplots@zmax@reg=\dimen177
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
-/tikz/libraries\tikzlibraryplotmarks.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/front
+endlayer/tikz/libraries\tikzlibraryplotmarks.code.tex"
 File: tikzlibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
-libraryplotmarks.code.tex"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libra
+ries\pgflibraryplotmarks.code.tex"
 File: pgflibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\tik
-zlibrarypgfplots.units.code.tex")
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/
+libs\tikzlibrarypgfplots.units.code.tex")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\bab
+el.sty"
 Package: babel 2019/07/19 3.33 The Babel package
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\swi
+tch.def"
 File: switch.def 2019/07/19 3.33 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblop
+ts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-russian\russi
-anb.ldf"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-russi
+an\russianb.ldf"
 Language: russian 2017/08/12 1.3j Russian support for the Babel system
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\bab
+el.def"
 File: babel.def 2019/07/19 3.33 Babel common definitions
 \babel@savecnt=\count129
 \U@D=\dimen178
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
-f")
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txt
+babel.def")
 \bbl@dirlevel=\count130
 )
 
@@ -594,12 +610,15 @@ Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                Default `T2A' encoding will be loaded  on input line 74.
 
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2aenc.def
-"
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2
+aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
- ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t2aenc.dfu"
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t2aenc
+.dfu"
 File: t2aenc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
@@ -792,13 +811,13 @@ File: t2aenc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
 Package babel Info: Making " an active character on input line 120.
 Package babel Info: Default for \cyrdash is provided on input line 157.
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filecontents\fileco
-ntents.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filecontent
+s\filecontents.sty"
 Package: filecontents 2018/05/30 v1.4 Create an external file from within a LaT
 eX document
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\ti
+tlesec.sty"
 Package: titlesec 2019/09/09 v2.12 Sectioning titles
 \ttl@box=\box41
 \beforetitleunit=\skip46
@@ -810,11 +829,12 @@ Package: titlesec 2019/09/09 v2.12 Sectioning titles
 \titlewidthlast=\dimen182
 \titlewidthfirst=\dimen183
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blindtext\blindtext
-.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blindtext\b
+lindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspac
+e.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count131
@@ -836,8 +856,8 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count147
 \c@blind@pangrammax=\count148
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\li
+stings.sty"
 \lst@mode=\count149
 \lst@gtempboxa=\box42
 \lst@token=\toks37
@@ -851,25 +871,29 @@ ty"
 \lst@lineno=\count154
 \lst@maxwidth=\dimen187
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
-y"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\ls
+tmisc.sty"
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 \c@lstnumber=\count155
 \lst@skipnumbers=\count156
 \lst@framebox=\box43
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.c
-fg"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\li
+stings.cfg"
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pd
+fpages.sty"
 Package: pdfpages 2019/11/21 v0.5o Insert pages of external PDF documents (AM)
- ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen
+.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+)
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.
+sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count157
 \calc@Bcount=\count158
@@ -881,31 +905,32 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count159
 \calc@Cskip=\skip50
-) ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.s
-ty"
+)
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso
+-pic.sty"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\atbegshi
-.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+atbegshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarer
-r.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.
-sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
-y"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )))
 \AM@pagewidth=\dimen190
 \AM@pageheight=\dimen191
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.d
-ef"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pp
+pdftex.def"
 File: pppdftex.def 2019/11/21 v0.5o Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box44
@@ -914,17 +939,17 @@ File: pppdftex.def 2019/11/21 v0.5o Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count160
 \AM@templatesizebox=\box45
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\ge
+ometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\i
+fxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count161
@@ -940,44 +965,45 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen199
 \Gm@dimlist=\toks40
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
-fg"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\ge
+ometry.cfg"))
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\ls
+tlang1.sty"
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
-ty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\ls
+tlang1.sty"
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
-y"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\ls
+tmisc.sty"
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 ) (rep_lab_06.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2
+acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `rep_lab_06.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
-f.mkii"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
+\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count164
 \scratchdimen=\dimen256
@@ -991,37 +1017,37 @@ f.mkii"
 \makeMPintoPDFobject=\count169
 \everyMPtoPDFconversion=\toks42
 )
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-b
-ase.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\ep
+stopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty
-"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\gr
+fext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefine
-keys.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.
-sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kv
+options.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkey
-s.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds
-.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex
-.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcm
-ds.sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\
+pdftexcmds.sty"
 Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -1040,17 +1066,17 @@ G,.JBIG2,.JB2,.eps]
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 47.
+ on input line 48.
 
 \c@lstlisting=\count170
 \AtBeginShipoutBox=\box47
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\pdflscape.
-sty"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\pd
+flscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.sty
-"
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ls
+cape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1091,7 +1117,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 [1
 
-{C:/Users/Tree/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/blueberrypie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (rep_lab_06.toc)
 \tf@toc=\write4
 \openout4 = `rep_lab_06.toc'.
@@ -1104,48 +1130,76 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 [3
 
+] [4
+
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-<Rec1.png, id=29, 457.71pt x 694.595pt>
+<Rec1.png, id=32, 457.71pt x 694.595pt>
 File: Rec1.png Graphic file (type png)
 <use Rec1.png>
-Package pdftex.def Info: Rec1.png  used on input line 138.
+Package pdftex.def Info: Rec1.png  used on input line 145.
 (pdftex.def)             Requested size: 320.39482pt x 486.21318pt.
-<Rec2.png, id=31, 332.24126pt x 839.135pt>
+<Rec2.png, id=34, 332.24126pt x 839.135pt>
 File: Rec2.png Graphic file (type png)
 <use Rec2.png>
-Package pdftex.def Info: Rec2.png  used on input line 140.
+Package pdftex.def Info: Rec2.png  used on input line 147.
 (pdftex.def)             Requested size: 232.56728pt x 587.39049pt.
-[4
+[5
 
- <./Rec1.png>] [5 <./Rec2.png>] (rep_lab_06.aux) ) 
+ <./Rec1.png>] [6 <./Rec2.png>]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 190.
+
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr
+.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
+ [7
+
+]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 196
+.
+
+("C:\Users\blueberrypie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2
+acmtt.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 201.
+ [8] [9] [10] (rep_lab_06.aux) ) 
 Here is how much of TeX's memory you used:
- 26624 strings out of 492895
- 651713 string characters out of 3124202
- 997025 words of memory out of 3000000
- 30062 multiletter control sequences out of 15000+200000
- 17557 words of font info for 39 fonts, out of 3000000 for 9000
+ 27114 strings out of 492895
+ 659825 string characters out of 3120466
+ 1107059 words of memory out of 3000000
+ 30544 multiletter control sequences out of 15000+200000
+ 18687 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,96p,1090b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Tree\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Tree\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Tree
-\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Use
-rs\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> 
-<C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm17
-28.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600
-\labx2488.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\lacc1728.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh
-/lh-t2a/dpi600\lacc2074.pk><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Tree/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Tree/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tree/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Us
-ers/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb>
-Output written on rep_lab_06.pdf (6 pages, 181350 bytes).
+ 62i,9n,96p,1090b,1729s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\blueberrypie\AppData\Local\MiKTeX\2.
+9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1200.pk> <C:\Users\blueberrypie\AppData\
+Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\bluebe
+rrypie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <
+C:\Users\blueberrypie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600
+\larm1200.pk> <C:\Users\blueberrypie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\labx1200.pk> <C:\Users\blueberrypie\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\blueberrypie\AppData\Loca
+l\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\blueberryp
+ie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\U
+sers\blueberrypie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lac
+c1728.pk> <C:\Users\blueberrypie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\lacc2074.pk><C:/Users/blueberrypie/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/blueberrypie/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/blueb
+errypie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Users/blueberrypie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Users/blueberrypie/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on rep_lab_06.pdf (11 pages, 234745 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
+ 458 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

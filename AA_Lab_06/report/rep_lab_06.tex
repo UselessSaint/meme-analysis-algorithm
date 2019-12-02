@@ -37,6 +37,7 @@
 \lstset{
 	language=C++,
 	numbers=left,
+	breaklines=true, 
 	frame=single,
 	texcl=true,
 	basicstyle=\ttfamily
@@ -119,7 +120,7 @@
 		$\tau_{ij}$(t+1) = $\tau_{ij}$*(1-$\rho$) + $\Sigma$$\Delta$$\tau_{k,ij}$(t)
 	\end{center}
 
-	$\rho$ - коэф. рассеивания
+	$\rho$ - коэф. рассеивания ферамона
 	\begin{displaymath}
 	\Delta\tau_{k,ij} = \left\{ \begin{array}{ll}
 	\dfrac{Q}{L_{k}}
@@ -132,6 +133,12 @@
 	$L_{k}$ - длина пути k-го муравья
 
 	Этот процесс повторяется $T_{max}$ раз.
+	
+	\chapter*{Вывод}
+	\addcontentsline{toc}{chapter}{Вывод}
+	
+	В данном разделе были изучены основные идеи, рассматриваемых в данной лабораторной работе, алгоритмов.
+	
 	\chapter{Конструкторская часть}
 	\subsection{Схемы алгоритмов}
 	\begin{center}
@@ -141,6 +148,158 @@
 		
 		Рис. 1. Схема рекурсивной реализации решения задачи коммивояжёра методом полного перебора
 	\end{center}
+
+	\chapter{Технологическая часть}
+	\section{Выбор ЯП}
+	В качестве языка программирования был выбрал C++, так как он позволяет реализовать задачу максимально комфортно.
+	
+	\section{Замеры времени}
+	Замер времени работы алгоритмов производился при помощи функций clock() из библиотеки time.h.
+	
+	Также производится усреднение времени работы алгоритмов. Для этого время считается для 10 вызовов, и после делится на 10.
+	
+	
+	\section{Требования к ПО}
+	
+	\textbf{Требования к вводу:}
+	\begin{enumerate}
+		\item Имя файла, содержащего матрицу смежности данного графа
+	\end{enumerate}
+	\textbf{Требования к программе:}
+	\begin{enumerate}
+		\item Корректный ввод, корректный вывод, программа не должна аварийно завершаться
+	\end{enumerate}
+	
+	\textbf{Требования структуре входного файла:}
+	На первой строке написанно одно натуральное число - кол-во вершин.
+	Значения в строках должны быть записаны на одной строке. Разделитель - пробел. Конец строки - переход на новую строку.
+	
+	Пример:
+	%\begin{center}
+	
+		2
+		
+		0 1
+		
+		2 0
+	%\end{center}
+	
+	\section{Сведения о модулях программы}
+	Программа состоит из:
+	\begin{itemize}
+		\item main.cpp - главный файл программы
+		\item antcolony.cpp - файл с реализациец алгоритма муравьиной колонии (Листинг 3.1.)
+		\item recursive.cpp - файл с реализацией алгоритма полного перебора (Листинг 3.2.)
+		\item utility.cpp - файл с реализацией доп. функций (т.к. чтение матрица) (Листинг 3.3.)
+	\end{itemize}
+
+	\begin{lstlisting}[label=some-code,caption=Алгоритм муравьиной колонии]
+pathInfo runColony(environment &env)
+{
+	pathInfo curBest;
+	
+	for (size_t i = 0; i < env.tMax; i++)
+	{
+		for (size_t j = 0; j < env.cities; j++)
+		{
+			pathInfo tmp =  runAnt(env, j);
+			tmp.len += env.map[tmp.path[0]][tmp.path[tmp.path.size()-1]];
+			
+			if (tmp.path.size() == env.cities && curBest.len == 0)
+				curBest = tmp;
+			if (tmp.path.size() == env.cities && curBest.len > tmp.len)
+				curBest = tmp;
+		}
+		
+		recalculateTau(env);
+	}
+	
+	return curBest;
+}
+
+
+pathInfo runAnt(environment &env, size_t baseCity)
+{
+	pathInfo curPath;
+	
+	while (1)
+	{
+		std::vector<double> probs;
+		double probsDivider = 0;
+		if (!isInVector(curPath.path, baseCity))
+			curPath.path.push_back(baseCity);
+		else
+			break;
+		
+		for (size_t i = 0; i < env.cities; i++)
+		{
+			if (env.map[baseCity][i] > 0 && !isInVector(curPath.path, i))
+			{
+				probsDivider += std::pow(env.tau[baseCity][i], env.alpha)*
+				std::pow(std::pow(env.map[baseCity][i], -1), env.beta);
+			}
+		}
+		
+		for (size_t i = 0; i < env.cities; i++)
+		{
+			if (isInVector(curPath.path, i) || env.map[baseCity][i] <= 0)
+				probs.push_back(0);
+			else
+				probs.push_back(std::pow(env.tau[baseCity][i], env.alpha)*
+				std::pow(std::pow(env.map[baseCity][i], -1), env.beta)/
+				probsDivider);
+		}
+		
+		double probsSum = 0;
+		for (auto it : probs)
+			probsSum += it;
+		
+		if (probsSum < 0.1)
+			break;
+		
+		double randVal = (double(rand()) / (RAND_MAX)) + 0.000001;
+		
+		probsSum = 0;
+		for (size_t i = 0; i < env.cities; i++)
+		{
+			probsSum += probs[i];
+			if (probsSum >= randVal && !isInVector(curPath.path, i))
+			{
+				curPath.len += env.map[baseCity][i];
+				
+				baseCity = i;
+				break;
+			}
+		}
+	}
+		
+	size_t curPathSize = curPath.path.size();
+	if (curPathSize == env.cities)
+	{
+		double dTau = env.Q / curPath.len;
+		for (size_t i = 0; i < curPathSize - 1; i++)
+		{
+			env.dTau[curPath.path[i]][curPath.path[i+1]] += dTau;
+			env.dTau[curPath.path[i+1]][curPath.path[i]] += dTau;
+		}
+	}
+	
+	return curPath;
+}
+
+void recalculateTau(environment &env)
+{
+	for (size_t i = 0; i < env.cities; i++)
+	{
+		for (size_t j = 0; j < env.cities; j++)
+		{
+			env.tau[i][j] = env.tau[i][j]*(1 - env.ro) + env.dTau[i][j];
+			env.dTau[i][j] = 0;
+		}
+	}
+}
+
+	\end{lstlisting}
 	
 	
 	
