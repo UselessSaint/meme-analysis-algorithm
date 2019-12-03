@@ -15,8 +15,8 @@ void test(std::string outFileName)
     std::cout << "\n" << "\n";
 
 	int v = 5;
-    std::vector<double> alphaTest = { 0, 0.2, 0.4, 0.5, 0.6, 0.8, 1 };
-    std::vector<size_t> tMaxTest = { 10, 20, 40, 60, 80, 100, 220 };
+	std::vector<double> alphaTest = { 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 };
+	std::vector<size_t> tMaxTest = { 10, 30, 50, 70, 90, 110, 130 };
 
     std::fstream outFile;
     outFile.open(outFileName, std::fstream::out);
@@ -33,23 +33,20 @@ void test(std::string outFileName)
 			env.Q = recRes.len % 100 * 10 + 50;
 
             int avg = 0;
+			double avgT = 0;
             for (int k = 0; k < v; k++)
             {
                 environment tEnv = env;
+				clock_t st = clock();
 				pathInfo t = runColony(tEnv);
+				clock_t end = clock();
 				std::cout << t.len << " ";
-				if (t.len < recRes.len)
-				{
-					for(auto it : t.path)
-					{
-						std::cout << "- " << it << "\n";
-					}
-				}
 
+				avgT += static_cast<double>(end - st) / CLOCKS_PER_SEC;
                 avg += t.len;
             }
-			std::cout << env.alpha << " " << env.beta << " " << env.tMax << " " << avg/v << std::endl;
-			outFile << env.alpha << " " << env.beta << " " << env.tMax << " " << avg/v << std::endl;
+			std::cout << env.alpha << " " << env.beta << " " << env.tMax << " " << avg/v << " " << avgT/v << std::endl;
+			outFile << env.alpha << " " << env.beta << " " << env.tMax << " " << avg/v << " " << avgT/v << std::endl;
         }
 
 		std::cout << "-----------------------------------\n";
@@ -86,12 +83,12 @@ int main()
 
         std::cout << "ResRec time.: " << tm << std::endl;
 
-        /*std::string fName;
+		std::string fName;
 
 		std::cout << "Enter test file name: ";
 		std::getline(std::cin, fName);
 
-        test(fName);*/
+		test(fName);
 	}
 	else
 	{
