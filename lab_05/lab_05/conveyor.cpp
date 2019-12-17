@@ -296,8 +296,6 @@ void task_pusher(std::queue<task> &first_queue, std::mutex &first_mutex)
 		newTask.fileName += std::to_string(1 + i % 5);
 		newTask.fileName += ".txt";
 
-		std::cout << newTask.fileName << std::endl;
-
 		first_mutex.lock();
 		first_queue.push(newTask);
 		first_mutex.unlock();
@@ -316,8 +314,8 @@ void printTaskInfo(task &inTask)
 {
 	std::cout << "Task id: " << inTask.id << std::endl;
 	std::cout << "	1st tape st: " << inTask.first_tape_start << "; 1st tape end: " << inTask.first_tape_end << std::endl;
-	std::cout << "	2st tape st: " << inTask.second_tape_start << "; 2st tape end: " << inTask.second_tape_end << std::endl;
-	std::cout << "	3st tape st: " << inTask.third_tape_start << "; 3st tape end: " << inTask.third_tape_end << std::endl;
+	std::cout << "	2nd tape st: " << inTask.second_tape_start << "; 2nd tape end: " << inTask.second_tape_end << std::endl;
+	std::cout << "	3d tape st: " << inTask.third_tape_start << "; 3d tape end: " << inTask.third_tape_end << std::endl;
 	std::cout << "	Encoded num: " << inTask.encoded_num << "; Decodec num: " << inTask.decoded_num << std::endl << std::endl;
 }
 
