@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  22 DEC 2019 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  24 DEC 2019 02:55
 entering extended mode
 **./lab_04_rep.tex
 (lab_04_rep.tex
@@ -864,6 +864,10 @@ File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
+("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.s
+ty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
 ty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
@@ -895,7 +899,146 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks38
 
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
-fg")) (lab_04_rep.aux
+fg"))
+("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
+ty"
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
+ty"
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
+y"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+)
+
+LaTeX Warning: Overwriting file `./info_1_ev.dat'.
+
+\openout15 = `info_1_ev.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_2_ev.dat'.
+
+\openout15 = `info_2_ev.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_4_ev.dat'.
+
+\openout15 = `info_4_ev.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_8_ev.dat'.
+
+\openout15 = `info_8_ev.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_16_ev.dat'.
+
+\openout15 = `info_16_ev.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_32_ev.dat'.
+
+\openout15 = `info_32_ev.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_64_ev.dat'.
+
+\openout15 = `info_64_ev.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_1_nv.dat'.
+
+\openout15 = `info_1_nv.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_2_nv.dat'.
+
+\openout15 = `info_2_nv.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_4_nv.dat'.
+
+\openout15 = `info_4_nv.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_8_nv.dat'.
+
+\openout15 = `info_8_nv.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_16_nv.dat'.
+
+\openout15 = `info_16_nv.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_32_nv.dat'.
+
+\openout15 = `info_32_nv.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+
+LaTeX Warning: Overwriting file `./info_64_nv.dat'.
+
+\openout15 = `info_64_nv.dat'.
+
+
+LaTeX Warning: Tab has been converted to Blank Space.
+
+
+(lab_04_rep.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
 
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
@@ -903,20 +1046,20 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `lab_04_rep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
 
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
 f.mkii"
@@ -990,7 +1133,7 @@ G,.JBIG2,.JB2,.eps]
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 18.
+ on input line 220.
 
 \c@lstlisting=\count166
 *geometry* driver: auto-detecting
@@ -1042,31 +1185,126 @@ your preamble.
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 [3
 
+]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+<BlockSchemeMult-Vin.png, id=29, 749.80125pt x 811.03pt>
+File: BlockSchemeMult-Vin.png Graphic file (type png)
+<use BlockSchemeMult-Vin.png>
+Package pdftex.def Info: BlockSchemeMult-Vin.png  used on input line 316.
+(pdftex.def)             Requested size: 374.8997pt x 405.514pt.
+[4
+
+ <./BlockSchemeMult-Vin.png>] [5]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+
+Overfull \hbox (2.84866pt too wide) in paragraph at lines 333--334
+[]\T2A/cmr/m/n/12 Замер вре-ме-ни ра-бо-ты ал-го-рит-мов про-из-во-дил-ся при п
+о-мо-щи функ-ций clock()
+ []
+
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 344
+.
+("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd
+"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) (../code/lab_04/winmult.cpp [6
+
+] [7]) [8] [9]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
+
+ []
+
+
+Overfull \hbox (20.23529pt too wide) in paragraph at lines 368--433
+[]$[]$  $[]$ 
+ []
+
+
+Overfull \hbox (20.23529pt too wide) in paragraph at lines 434--557
+[]$[]$  $[]$ 
+ []
+
+[10
+
+]
+PGFPlots: reading {info_1_ev.dat}
+PGFPlots: reading {info_2_ev.dat}
+PGFPlots: reading {info_4_ev.dat}
+ [11]
+PGFPlots: reading {info_8_ev.dat}
+PGFPlots: reading {info_16_ev.dat}
+PGFPlots: reading {info_32_ev.dat}
+PGFPlots: reading {info_64_ev.dat}
+PGFPlots: reading {info_4_ev.dat}
+PGFPlots: reading {info_8_ev.dat}
+PGFPlots: reading {info_32_ev.dat}
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 669--671
+
+ []
+
+
+Overfull \hbox (20.23529pt too wide) in paragraph at lines 672--737
+[]$[]$  $[]$ 
+ []
+
+
+Overfull \hbox (20.23529pt too wide) in paragraph at lines 738--861
+[]$[]$  $[]$ 
+ []
+
+[13]
+PGFPlots: reading {info_1_ev.dat}
+PGFPlots: reading {info_2_ev.dat}
+PGFPlots: reading {info_4_ev.dat}
+ [14]
+PGFPlots: reading {info_8_nv.dat}
+PGFPlots: reading {info_16_nv.dat}
+PGFPlots: reading {info_32_nv.dat}
+PGFPlots: reading {info_64_nv.dat}
+PGFPlots: reading {info_4_nv.dat}
+PGFPlots: reading {info_8_nv.dat}
+PGFPlots: reading {info_32_nv.dat}
+ [15] [16] (lab_04_rep.bbl [17
+
+]
+Underfull \hbox (badness 1348) in paragraph at lines 25--27
+[]\T2A/cmr/m/n/12 Стандарт язы-ка С++11 со-глас-но ISO. URL: https://isocpp.org
+/std/the-
+ []
+
+) [18
+
 ] (lab_04_rep.aux) ) 
 Here is how much of TeX's memory you used:
- 25751 strings out of 492895
- 637001 string characters out of 3124202
- 796520 words of memory out of 3000000
- 29230 multiletter control sequences out of 15000+200000
- 15133 words of font info for 36 fonts, out of 3000000 for 9000
+ 26867 strings out of 492895
+ 658423 string characters out of 3124202
+ 1026108 words of memory out of 3000000
+ 30289 multiletter control sequences out of 15000+200000
+ 19307 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,96p,735b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,17n,96p,735b,2154s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh
-/lh-t2a/dpi600\larm1200.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2
-.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Tree\AppData\Local\M
-iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\Users\Tree\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc1728.pk> <C:\Users\Tree\A
-ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc2074.pk><C:/Users/
-Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on lab_04_rep.pdf (4 pages, 117995 bytes).
+/lh-t2a/dpi600\labx1440.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/lh/lh-t2a/dpi600\latt1200.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Tree\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Tree\AppData\
+Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\Tree\A
+ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users
+\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C
+:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc1728
+.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
+acc2074.pk><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Tree/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tree/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on lab_04_rep.pdf (19 pages, 264405 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
+ 524 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

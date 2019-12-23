@@ -2,7 +2,6 @@
 
 void thrdMultiply(mtr &res, const mtr &A, const mtr &B, int st, int end, std::mutex &mtx)
 {
-	//size_t A_rows = A.size();
 	size_t B_rows = B.size(), B_cols = B[0].size();
 
 	bool uneven = (B_rows % 2 != 0 ? true : false);
@@ -99,6 +98,7 @@ mtr multiply(mtr &A, mtr &B, size_t thdN)
 	for (auto &thd : thds)
 		if (thd.joinable())
 			thd.join();
+
 	return res;
 }
 

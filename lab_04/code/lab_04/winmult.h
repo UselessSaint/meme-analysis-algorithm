@@ -5,6 +5,8 @@
 #include <iostream>
 #include <thread>
 #include <mutex>
+#include <fstream>
+#include <time.h>
 
 typedef std::vector<std::vector<double>> mtr;
 
