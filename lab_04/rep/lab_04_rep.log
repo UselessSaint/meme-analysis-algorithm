@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  17 DEC 2019 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.23)  22 DEC 2019 19:46
 entering extended mode
-**./lab_05_rep.tex
-(lab_05_rep.tex
+**./lab_04_rep.tex
+(lab_04_rep.tex
 LaTeX2e <2018-12-01>
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
@@ -864,60 +864,14 @@ File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.s
-ty"
-Package: pdfpages 2019/11/21 v0.5o Insert pages of external PDF documents (AM)
- ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count157
-\calc@Bcount=\count158
-\calc@Adimen=\dimen188
-\calc@Bdimen=\dimen189
-\calc@Askip=\skip48
-\calc@Bskip=\skip49
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count159
-\calc@Cskip=\skip50
-) ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.s
-ty"
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
-
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\atbegshi
-.sty"
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarer
-r.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.
-sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
-y"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)))
-\AM@pagewidth=\dimen190
-\AM@pageheight=\dimen191
-
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.d
-ef"
-File: pppdftex.def 2019/11/21 v0.5o Pdfpages driver for pdfTeX (AM)
-)
-\AM@pagebox=\box44
-\AM@global@opts=\toks38
-\AM@toc@title=\toks39
-\c@AM@survey=\count160
-\AM@templatesizebox=\box45
-)
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
 ty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
+("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
+y"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.s
 ty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -927,74 +881,66 @@ Package ifvtex Info: VTeX not detected.
 ty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count161
-\Gm@cntv=\count162
-\c@Gm@tempcnt=\count163
-\Gm@bindingoffset=\dimen192
-\Gm@wd@mp=\dimen193
-\Gm@odd@mp=\dimen194
-\Gm@even@mp=\dimen195
-\Gm@layoutwidth=\dimen196
-\Gm@layoutheight=\dimen197
-\Gm@layouthoffset=\dimen198
-\Gm@layoutvoffset=\dimen199
-\Gm@dimlist=\toks40
+\Gm@cnth=\count157
+\Gm@cntv=\count158
+\c@Gm@tempcnt=\count159
+\Gm@bindingoffset=\dimen188
+\Gm@wd@mp=\dimen189
+\Gm@odd@mp=\dimen190
+\Gm@even@mp=\dimen191
+\Gm@layoutwidth=\dimen192
+\Gm@layoutheight=\dimen193
+\Gm@layouthoffset=\dimen194
+\Gm@layoutvoffset=\dimen195
+\Gm@dimlist=\toks38
 
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
-fg"))
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
-ty"
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
-ty"
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
-y"
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-) (lab_05_rep.aux
+fg")) (lab_04_rep.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
 
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `lab_05_rep.aux'.
+\openout1 = `lab_04_rep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
 f.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
-\scratchdimen=\dimen256
-\scratchbox=\box46
-\nofMPsegments=\count165
-\nofMParguments=\count166
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count167
-\MPscratchDim=\dimen257
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count160
+\scratchdimen=\dimen196
+\scratchbox=\box44
+\nofMPsegments=\count161
+\nofMParguments=\count162
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count163
+\MPscratchDim=\dimen197
+\MPnumerator=\count164
+\makeMPintoPDFobject=\count165
+\everyMPtoPDFconversion=\toks40
 )
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-b
 ase.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
+("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarer
+r.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty
 "
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -1002,7 +948,11 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefine
 keys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
+
+("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.
+sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
 ("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.
 sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -1040,21 +990,9 @@ G,.JBIG2,.JB2,.eps]
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 31.
+ on input line 18.
 
-\c@lstlisting=\count170
-\AtBeginShipoutBox=\box47
-
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\pdflscape.
-sty"
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.sty
-"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
+\c@lstlisting=\count166
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1092,9 +1030,9 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 [1
 
 {C:/Users/Tree/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(lab_05_rep.toc)
+(lab_04_rep.toc)
 \tf@toc=\write4
-\openout4 = `lab_05_rep.toc'.
+\openout4 = `lab_04_rep.toc'.
 
  [1
 
@@ -1104,144 +1042,31 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 [3
 
-]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-<tape.png, id=25, 453.695pt x 895.345pt>
-File: tape.png Graphic file (type png)
-<use tape.png>
-Package pdftex.def Info: tape.png  used on input line 108.
-(pdftex.def)             Requested size: 226.84694pt x 447.6714pt.
-[4
-
- <./tape.png>] [5]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-
-Overfull \hbox (26.98724pt too wide) in paragraph at lines 124--125
-\T2A/cmr/m/n/12 лио-те-ки <chorno>.[3] ƒл€ ре-а-ли-за-ции по-то-ков бы-ла вы-бр
-а-на биб-лио-те-ка <thread>.[4]
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 143.
-
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 143.
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 150
-.
-
-("C:\Users\Tree\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd
-"
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) (../lab_05/conveyor.cpp
-LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 1.
- [6
-
-] [7] [8] [9]
-Overfull \hbox (4.85817pt too wide) in paragraph at lines 147--148
-[][] 
- []
-
-
-Overfull \hbox (19.6747pt too wide) in paragraph at lines 147--148
-[][] 
- []
-
-
-Overfull \hbox (4.85817pt too wide) in paragraph at lines 147--148
-[][] 
- []
-
-[10]
-Overfull \hbox (4.85817pt too wide) in paragraph at lines 149--150
-[][] 
- []
-
-
-Overfull \hbox (19.6747pt too wide) in paragraph at lines 149--150
-[][] 
- []
-
-
-Overfull \hbox (4.85817pt too wide) in paragraph at lines 149--150
-[][] 
- []
-
-[11] [12] [13] [14] [15]) [16]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
-<exp.png, id=72, 575.14874pt x 360.59718pt>
-File: exp.png Graphic file (type png)
-<use exp.png>
-Package pdftex.def Info: exp.png  used on input line 174.
-(pdftex.def)             Requested size: 460.11961pt x 288.47813pt.
-
-Overfull \hbox (30.11499pt too wide) in paragraph at lines 174--175
- [] 
- []
-
-[17
-
- <./exp.png>] [18] [19
-
-]
-Overfull \hbox (114.65436pt too wide) in paragraph at lines 206--208
-[]\T2A/cmr/m/n/12 ќсновы крип-то-ана-ли-за. [Ёлек-трон-ный ре-сурс] –е-жим до-с
-ту-па: http://www.univer.omsk.su/omsk-
- []
-
-
-Overfull \hbox (100.0927pt too wide) in paragraph at lines 208--210
-[]\T2A/cmr/m/n/12 Ўифр ÷е-за-р€. [Ёлек-трон-ный ре-сурс] –е-жим до-сту-па: http
-://kriptografea.narod.ru/chezar.html
- []
-
-
-Overfull \hbox (99.2526pt too wide) in paragraph at lines 210--212
-[]\T2A/cmr/m/n/12 <chrono>. [Ёлек-трон-ный ре-сурс] –е-жим до-сту-па: http://ww
-w.cplusplus.com/reference/chrono/
- []
-
-
-Overfull \hbox (128.62051pt too wide) in paragraph at lines 212--214
-[]\T2A/cmr/m/n/12 std::thread. [Ёлек-трон-ный ре-сурс] –е-жим до-сту-па: https:
-//ru.cppreference.com/w/cpp/thread/thread
- []
-
-
-Overfull \hbox (126.01001pt too wide) in paragraph at lines 214--216
-[]\T2A/cmr/m/n/12 std::mutex. [Ёлек-трон-ный ре-сурс] –е-жим до-сту-па: https:/
-/ru.cppreference.com/w/cpp/thread/mutex
- []
-
-[20
-
-] (lab_05_rep.aux) ) 
+] (lab_04_rep.aux) ) 
 Here is how much of TeX's memory you used:
- 26969 strings out of 492895
- 656557 string characters out of 3124202
- 1160093 words of memory out of 3000000
- 30396 multiletter control sequences out of 15000+200000
- 17081 words of font info for 39 fonts, out of 3000000 for 9000
+ 25751 strings out of 492895
+ 637001 string characters out of 3124202
+ 796520 words of memory out of 3000000
+ 29230 multiletter control sequences out of 15000+200000
+ 15133 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,96p,735b,1046s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,7n,96p,735b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh
-/lh-t2a/dpi600\latt1200.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2
-.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Tree\AppData\Local\M
-iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Tree\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\Tree\A
-ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users
-\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C
-:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc1728
-.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
-acc2074.pk><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb>
-Output written on lab_05_rep.pdf (21 pages, 236191 bytes).
+/lh-t2a/dpi600\larm1200.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\Tree\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Tree\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\Users\Tree\AppData\
+Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc1728.pk> <C:\Users\Tree\A
+ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc2074.pk><C:/Users/
+Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Users/Tree/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on lab_04_rep.pdf (4 pages, 117995 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
+ 254 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
